@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb6925a-7be6-4182-8420-636f81d56bd1" name="Changes" comment="initial commit1">
-      <change afterPath="$PROJECT_DIR$/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/redux.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ILoginModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/IRegisterModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/IUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/AuthService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/reducers/AuthSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Auth/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Auth/LoginScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Properties/launchSettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="0eb6925a-7be6-4182-8420-636f81d56bd1" name="Changes" comment="initial commit1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +81,7 @@
       <workItem from="1779804753448" duration="918000" />
       <workItem from="1779970259931" duration="3939000" />
       <workItem from="1779976216883" duration="17104000" />
-      <workItem from="1780561602506" duration="4881000" />
+      <workItem from="1780561602506" duration="5194000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
