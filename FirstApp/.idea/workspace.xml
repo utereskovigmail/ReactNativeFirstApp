@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb6925a-7be6-4182-8420-636f81d56bd1" name="Changes" comment="initial commit1" />
+    <list default="true" id="0eb6925a-7be6-4182-8420-636f81d56bd1" name="Changes" comment="initial commit1">
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/logger.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/AuthTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/AuthTabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/form/ImagePickerButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/common/IImageFile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Models/Account/RegisterModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/IRegisterModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/IRegisterModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Auth/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Auth/LoginScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Auth/RegisterScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Auth/RegisterScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/reset-project.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/reset-project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/AuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/AuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/AuthSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/AuthSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Mapper/UserMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApiReact/WebApiReact/Mapper/UserMapper.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +43,12 @@
     &quot;assignee&quot;: &quot;utereskovigmail&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:utereskovigmail/ReactNativeFirstApp.git",
-    "accountId": "8ba945a8-5259-418f-b905-928d9252aaa6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:utereskovigmail/ReactNativeFirstApp.git&quot;,
+    &quot;accountId&quot;: &quot;8ba945a8-5259-418f-b905-928d9252aaa6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -33,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/hooks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/node_modules/prettier",
-    "ts.external.directory.path": "/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/hooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/utereskovygmail.com/React Native/FirstApp/FirstApp/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/hooks" />
@@ -81,7 +105,10 @@
       <workItem from="1779804753448" duration="918000" />
       <workItem from="1779970259931" duration="3939000" />
       <workItem from="1779976216883" duration="17104000" />
-      <workItem from="1780561602506" duration="5194000" />
+      <workItem from="1780561602506" duration="5487000" />
+      <workItem from="1780577928586" duration="7768000" />
+      <workItem from="1780756328566" duration="3440000" />
+      <workItem from="1781007274872" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />

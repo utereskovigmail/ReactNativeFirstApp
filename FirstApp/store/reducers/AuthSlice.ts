@@ -1,6 +1,7 @@
 import {createSlice, type PayloadAction} from "@reduxjs/toolkit";
 import { jwtDecode } from "jwt-decode";
 import type IUser from "../../models/IUser.ts";
+
 // Import your API service
 
 const getUserFromToken = (token: string): IUser | null => {

@@ -2,30 +2,61 @@ import {DarkTheme, DefaultTheme, ThemeProvider} from '@react-navigation/native';
 import {Stack} from 'expo-router';
 import {StatusBar} from 'expo-status-bar';
 import 'react-native-reanimated';
-
+import '../global.css';
 import {useColorScheme} from '@/hooks/use-color-scheme';
-import "@/global.css";
 import {Provider} from "react-redux";
 import {setupStore} from "@/store";
+import * as SecureStore from 'expo-secure-store';
+import {loginSuccess} from "@/store/reducers/AuthSlice";
+import {useEffect, useState} from "react";
 
-// export const unstable_settings = {
-//     anchor: '(tabs)'
-// };
 const store = setupStore();
-export default function RootLayout() {
-    const colorScheme = useColorScheme();
-    return (
-        <Provider store={store}>
-            <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-                <Stack>
-                    <Stack.Screen name="(auth)" options={{headerShown: false}}/>
-                    {/*<Stack.Screen name="(tabs)" options={{headerShown: false}}/>*/}
 
-                    <Stack.Screen name="modal" options={{presentation: 'modal', title: 'Modal'}}/>
-                </Stack>
-                <StatusBar style="auto"/>
-            </ThemeProvider>
-        </Provider>
+export default function RootLayout() {
+
+    //token
+    //await SecureStore.getItemAsync('accessToken');
+    const [storageReady, setStorageReady] = useState(false);
+
+    useEffect(() => {
+        initStore().then(() => {
+            setStorageReady(true)
+        });
+    }, []);
+
+    async function initStore(): Promise<void> {
+        const accessToken  = await SecureStore.getItemAsync('accessToken');
+        // console.log("User info", accessToken);
+        if (accessToken) {
+            store.dispatch(loginSuccess(accessToken));
+            console.log("User info", accessToken);
+        }
+    }
+
+
+    const colorScheme = useColorScheme();
+
+
+
+    if (!storageReady) {
+        return null;
+    }
+
+    return (
+        <>
+            <Provider store={store}>
+                <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+                    <Stack>
+                        <Stack.Screen name="(auth)" options={{headerShown: false}}/>
+                        <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
+                        <Stack.Screen name="modal" options={{presentation: 'modal', title: 'Modal'}}/>
+                        <Stack.Screen name="logger" options={{headerShown: false}}/>
+                    </Stack>
+                    <StatusBar style="auto"/>
+                </ThemeProvider>
+            </Provider>
+
+        </>
 
     );
 }
