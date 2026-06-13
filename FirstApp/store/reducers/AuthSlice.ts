@@ -43,5 +43,5 @@ const authSlice = createSlice({
 });
 
 // This export will now work perfectly and fix your SyntaxError
-export const { loginSuccess, logout } = authSlice.actions;
+export const { loginSuccess, logout,  } = authSlice.actions;
 export default authSlice.reducer;

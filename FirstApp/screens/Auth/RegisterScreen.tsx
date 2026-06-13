@@ -17,18 +17,19 @@ import * as ImagePicker from "expo-image-picker"
 import * as SecureStore from "expo-secure-store";
 import {useRegisterMutation} from "@/service/AuthService";
 import {loginSuccess} from "@/store/reducers/AuthSlice";
+import IRegisterModel from "@/models/IRegisterModel";
 
-type RegisterFormData = {
-    firstName: string;
-    lastName: string;
-    email: string;
-    password: string;
-    imageFile: any | null;
-};
+// type RegisterFormData = {
+//     firstName: string;
+//     lastName: string;
+//     email: string;
+//     password: string;
+//     imageFile: any | null;
+// };
 
 
 export default function RegisterScreen() {
-    const {control, handleSubmit, setValue, watch} = useForm<RegisterFormData>();
+    const {control, handleSubmit, setValue, watch} = useForm<IRegisterModel>();
     const [registerUser, {isLoading}] = useRegisterMutation();
 
     const dispatch = useDispatch();
@@ -63,7 +64,7 @@ export default function RegisterScreen() {
     }
 
 
-    const onSubmit = async  (data: RegisterFormData) => {
+    const onSubmit = async  (data: IRegisterModel) => {
         try {
             const response = await registerUser(data).unwrap();
             const token = response.token;
